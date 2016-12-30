@@ -14,6 +14,7 @@
 		D83C915E1E16BCDE00D0D09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83C915C1E16BCDE00D0D09B /* LaunchScreen.storyboard */; };
 		D83C91691E16BCDF00D0D09B /* Bout_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C91681E16BCDF00D0D09B /* Bout_TimeTests.swift */; };
 		D83C91741E16BCDF00D0D09B /* Bout_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C91731E16BCDF00D0D09B /* Bout_TimeUITests.swift */; };
+		D83C91821E16BF2A00D0D09B /* PNG Files in Resources */ = {isa = PBXBuildFile; fileRef = D83C91811E16BF2A00D0D09B /* PNG Files */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D83C916F1E16BCDF00D0D09B /* Bout TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bout TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C91731E16BCDF00D0D09B /* Bout_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bout_TimeUITests.swift; sourceTree = "<group>"; };
 		D83C91751E16BCDF00D0D09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83C91811E16BF2A00D0D09B /* PNG Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PNG Files"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D83C915A1E16BCDE00D0D09B /* Assets.xcassets */,
 				D83C915C1E16BCDE00D0D09B /* LaunchScreen.storyboard */,
 				D83C915F1E16BCDE00D0D09B /* Info.plist */,
+				D83C91811E16BF2A00D0D09B /* PNG Files */,
 			);
 			path = "Bout Time";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83C915E1E16BCDE00D0D09B /* LaunchScreen.storyboard in Resources */,
+				D83C91821E16BF2A00D0D09B /* PNG Files in Resources */,
 				D83C915B1E16BCDE00D0D09B /* Assets.xcassets in Resources */,
 				D83C91591E16BCDE00D0D09B /* Main.storyboard in Resources */,
 			);
