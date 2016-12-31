@@ -29,6 +29,8 @@
 		D83C919C1E16E77000D0D09B /* webview_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D83C918F1E16E77000D0D09B /* webview_bar.png */; };
 		D83C91A01E16E8C400D0D09B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C919F1E16E8C400D0D09B /* Event.swift */; };
 		D83C91A21E16EA2900D0D09B /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C91A11E16EA2900D0D09B /* Round.swift */; };
+		D83C91A41E18530500D0D09B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C91A31E18530500D0D09B /* WebViewController.swift */; };
+		D83C91A61E18615D00D0D09B /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D83C91A51E18615D00D0D09B /* backButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		D83C918F1E16E77000D0D09B /* webview_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = webview_bar.png; path = "PNG Files/webview_bar.png"; sourceTree = "<group>"; };
 		D83C919F1E16E8C400D0D09B /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		D83C91A11E16EA2900D0D09B /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		D83C91A31E18530500D0D09B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D83C91A51E18615D00D0D09B /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = "PNG Files/backButton.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 			children = (
 				D83C91531E16BCDE00D0D09B /* AppDelegate.swift */,
 				D83C91551E16BCDE00D0D09B /* ViewController.swift */,
+				D83C91A31E18530500D0D09B /* WebViewController.swift */,
 				D83C91571E16BCDE00D0D09B /* Main.storyboard */,
 				D83C915A1E16BCDE00D0D09B /* Assets.xcassets */,
 				D83C915C1E16BCDE00D0D09B /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 		D83C919E1E16E7A900D0D09B /* PNG Files */ = {
 			isa = PBXGroup;
 			children = (
+				D83C91A51E18615D00D0D09B /* backButton.png */,
 				D83C91831E16E77000D0D09B /* down_full_selected.png */,
 				D83C91841E16E77000D0D09B /* down_full.png */,
 				D83C91851E16E77000D0D09B /* down_half_selected.png */,
@@ -299,6 +305,7 @@
 				D83C91911E16E77000D0D09B /* down_full.png in Resources */,
 				D83C91591E16BCDE00D0D09B /* Main.storyboard in Resources */,
 				D83C91901E16E77000D0D09B /* down_full_selected.png in Resources */,
+				D83C91A61E18615D00D0D09B /* backButton.png in Resources */,
 				D83C91941E16E77000D0D09B /* next_round_fail.png in Resources */,
 				D83C919C1E16E77000D0D09B /* webview_bar.png in Resources */,
 			);
@@ -328,6 +335,7 @@
 				D83C91561E16BCDE00D0D09B /* ViewController.swift in Sources */,
 				D83C91A01E16E8C400D0D09B /* Event.swift in Sources */,
 				D83C91A21E16EA2900D0D09B /* Round.swift in Sources */,
+				D83C91A41E18530500D0D09B /* WebViewController.swift in Sources */,
 				D83C91541E16BCDE00D0D09B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
