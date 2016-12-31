@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     }
     
     // Constants
-    let numberOfRounds = 3
-    let countDownDuartion = 32
+    let numberOfRounds = 6
+    let countDownDuartion = 60
     let roundButtonDefaultVerticalSpacing: CGFloat = 545
     let timerLabelDefaultVerticalSpacing: CGFloat = 545
     let descriptionDefaultVerticalSpacing: CGFloat = 593
@@ -159,7 +159,6 @@ class ViewController: UIViewController {
         currentCountdown -= 1
         
         if currentCountdown == 0 {
-            canShake = false
             processUnshaken()
         }
         
